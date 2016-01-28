@@ -24,7 +24,7 @@ README = os.path.join(os.path.dirname(__file__), 'README.md')
 
 setup(
     name='mcok',
-    version="0.0.1",
+    version="0.0.2",
     author='Michał Jaworski',
     author_email='swistakm@gmail.com',
     description="Mock mock's Mock",
@@ -33,6 +33,7 @@ setup(
     include_package_data=True,
     install_requires=[],
     zip_safe=True,
+    py_modules=['mock'],
 
     license="BSD",
     classifiers=[
